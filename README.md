@@ -10,8 +10,10 @@ Complete_dataset_CS - directory where all the complete cases are stored (unzip C
 
 Data_without_NANs_CS - directory where the original file Original_dataset_IU.csv from which all the missingness was created is stored
 
-Data_with_missigness_CS -  directory where all the files with missingness are located (unzip Data_with_missigness_CS.zip to see the files)
+Data_with_missigness_CS - directory where all the files with missingness are located (unzip Data_with_missigness_CS.zip to see the files)
 
+
+Imputed_datasets_CS - directory where all the imputed files are located (unzip all the files to see the imputated files per missingness type and imputation)
 
 
 
