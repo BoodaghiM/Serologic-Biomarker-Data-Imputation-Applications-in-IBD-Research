@@ -19,6 +19,8 @@ Phenotype_data_IU.csv - contains the current diagnosis information (use Genetic 
 
 
 
+
+
 This repository contains pipelines and data for imputing serologic datasets in IBD research. It includes 3 example missingness cases (out of the original 100 used in our study) generated from the fully observed source file Data_without_NANs_CS/Original_dataset_IU.csv. Synthetic missingness covers MCAR, MAR, and MNAR (unzip Data_with_missigness_CS/Data_with_missigness_CS.zip to access them).
 
 Use run_imputations.ipynb to apply multiple imputation methods (e.g., MICE variants, Autoencoder) and write imputed archives (e.g., Imputed_AE_MNAR.zip, Imputed_MICE (NORM.BOOT)_MNAR.zip) into Imputed_datasets_CS/.
